@@ -1,0 +1,203 @@
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+
+}
+
+.flex {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: var(--secondary-color);
+    color: var(--third-color);
+    border: none;
+    border-radius: 5px;
+}
+
+.btn.btn-primary {
+    background-color: var(--primary-color);
+} 
+
+.btn:hover {
+    transform: scale(0.95);
+}
+
+/* Backgrounds & colored buttons */
+
+.bg-primary {
+    background-color: var(--colored-background);
+    color: var(--text-color)
+}
+.card {
+    background-color:#fff;
+    border-radius:30px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+}
+
+.card-img {
+    width: 150px;
+
+}
+.grid {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    
+}
+
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* Margins */
+
+/* margins top-bottom - vertical */
+.my-1 {
+    margin: 1rem 0;
+}
+
+.my-2 {
+    margin: 1.5rem 0;
+}
+
+.my-3 {
+    margin: 2rem 0;
+}
+
+.my-4 {
+    margin: 3rem 0;
+}
+
+.my-5 {
+    margin: 4rem 0;
+}
+
+/* margin all arround */
+
+.m-1 {
+    margin: 1rem;
+}
+
+.m-2 {
+    margin: 1.5rem;
+}
+
+.m-3 {
+    margin: 2rem;
+}
+
+.m-4 {
+    margin: 3rem;
+}
+
+.m-5 {
+    margin: 4rem;
+}
+
+/* margins left right - horizontal */
+
+.mx-1 {
+    margin: 0 1rem;
+}
+
+.mx-2 {
+    margin: 0 1.5rem;
+}
+
+.mx-3 {
+    margin: 0 2rem;
+}
+
+.mx-4 {
+    margin: 0 3rem;
+}
+
+.mx-5 {
+    margin: 0 4rem;
+}
+
+/* PaddingsS */
+
+/* Paddings top-bottom - vertical */
+.py-1 {
+    padding: 1rem 0;
+}
+
+.py-2 {
+    padding: 1.5rem 0;
+}
+
+.py-3 {
+    padding: 2rem 0;
+}
+
+.py-4 {
+    padding: 3rem 0;
+}
+
+.py-5 {
+    padding: 4rem 0;
+}
+
+/* Paddings all arround */
+
+.p-1 {
+    padding: 1rem;
+}
+
+.p-2 {
+    padding: 1.5rem;
+}
+
+.p-3 {
+    padding: 2rem;
+}
+
+.p-4 {
+    padding: 3rem;
+}
+
+.p-5 {
+    padding: 4rem;
+}
+
+/* Paddings left right - horizontal */
+
+.px-1 {
+    padding: 0 1rem;
+}
+
+.px-2 {
+    padding: 0 1.5rem;
+}
+
+.px-3 {
+    padding: 0 2rem;
+}
+
+.px-4 {
+    padding: 0 3rem;
+}
+
+.px-5 {
+    padding: 0 4rem;
+}
